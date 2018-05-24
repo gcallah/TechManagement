@@ -16,19 +16,19 @@
 
         <p>
             Nobel-Prize-winning economist F.A. Hayek was one of the most
-            significant thinkers of the 20th century. Some despise him for his
-            "neo-liberalism," and the comfort he might have given to
+            significant social theorists of the 20th century. Some despise him
+            for his "neo-liberalism," and the comfort he might have given to
             the Pinochet regime in Chile. Others love him for his support of
             free markets and his defense of a liberal social order. But love
             him or hate him, no one should doubt his significance as a thinker:
-            he did important work in the theory of the business cycle, in
-            monetary theory, in the theory of capital, on the informational
-            role of market prices, on the nature of complex phenomena, and the
-            importance of group selection in evolution.
+            he did important work on the theory of the business cycle, on
+            monetary theory, on the theory of capital, on the informational
+            role of market prices, on the nature of complex phenomena, and on
+            the importance of group selection in evolution.
         </p>
 
         <p>
-            More specifially, in this essay, I wish to argue that, whatever one
+            In this essay, I wish to argue that, whatever one
             thinks of Hayek's politics, his work has important insights to
             offer those advancing Lean / Agile / DevOps ideas for IT.
             Here I will focus on his paper "Competition as a Discovery
@@ -43,7 +43,7 @@
             "perfect competition" that had come to dominate economics in the
             middle of the 20th century. In that model, "competition" meant a
             state of affairs in which each market particpant already knew every
-            relevant detail about the market in which that particpated, and
+            relevant detail about the market in which they particpated, and
             thus simply "accepted" a price that, somehow, mysteriously emerged
             from the "given data" of their market. In such a situation no
             actual competion, as it is commonly understood, really occurs:
@@ -52,7 +52,6 @@
             stands.
         </p>
 
-            
         <p>
             Similarly, the waterfall model of software development simply
             assumes that what has to be discovered, in the process of software
@@ -71,16 +70,22 @@
         </p>
 
         <p>
-            "It is difficult to defend economists against the charge that for
-            some 40 or 50 years they have been discussing competition on
-            assumptions that, if they were true of the real world, would make
-            it wholly uninteresting and useless. If anyone really knew all about
-            what economic theory calls the <i>data</i>, competition would indeed be a
-            very wasteful method of securing adjustment to these facts." (179)
+            Hayek, describing the dependence of economists on the perfect
+            competition model, admits:
         </p>
 
         <p>
-            Hayek goes on to write:
+            "It is difficult to defend economists against the charge that for
+            some 40 or 50 years they have been discussing competition on
+            assumptions that, if they were true of the real world, would make
+            it wholly uninteresting and useless. If anyone really knew all
+            about what economic theory calls the <i>data</i>, competition would
+            indeed be a very wasteful method of securing adjustment to these
+            facts." (179)
+        </p>
+
+        <p>
+            He goes on to write:
         </p>
 
         <p>
@@ -101,36 +106,49 @@
             when we put our interface in front of real users that we find out
             if it really is "intuitive." It is only when we confront our
             theoretical calculations with the real data that we know if we got
-            them right. It is only when we put our database out to meet real loads
-            that we can tell if its performance is adequate. We can only tell
-            if our CDN design meets our goals when it actually has to deliver
-            content. None of this means that we should not plan <i>as much as
-            possible</i>, in advance, to make sure our software is up to snuff,
-            just that how much is possible is quite limited. 
+            them right. It is only when we put our database out to meet real
+            loads that we can tell if its performance is adequate. We can only
+            tell if our CDN design meets our goals when it actually has to
+            deliver content. None of this means that we should not plan <i>as
+            much as possible</i>, in advance, to make sure our software is up
+        to snuff, just that how much is possible is quite limited. 
         </p>
 
         <p>
-            "One is that competition is valuable only because, and so far as,
+            Hayek highlights the true value of competition in the following
+            passage:
+        </p>
+
+        <p>
+            "[C]ompetition is valuable only because, and so far as,
             its results are unpredictable and on the whole different from those
-            which anyone has, or could have, deliberately aimed at." (180)        
-        </p>
-
-
-        <p>
-            "We do not know the facts we hope to discover means of competition,
+            which anyone has, or could have, deliberately aimed at...
+            We do not know the facts we hope to discover means of competition,
             we can never ascertain how effective it has been discovering those
-            facts that might be discovered." (180)
-        </p>
-
-
-        <p>
-            "The peculiarity of competition -- which it has in common with
+            facts that might be discovered...
+            The peculiarity of competition -- which it has in common with
             scientific method -- is that its performance cannot be tested in
             particular instances where it is significant... The advantages of
             accepted scientific procedures can never be proveed scientifically,
             but only demonstrated by the common experience that, on the whole,
             they are better adapted to delivering the goods than alternative
             approaches." (180)
+        </p>
+
+        <p>
+            Bjarne Stroustrup, the creator of C++, has very similar things to
+            say about programming:
+        </p>
+
+        <p>
+            "When we start, we rarely know the problem well. We often think we
+            do... but we don't. Only a combination of thinking about the
+            problem (analysis) and experimentation (design and implementation)
+            gives us the solid understanding that we need to write a good
+            program... It is rare to find that we had anticipated everything
+            when we analyzed the problem and made the initial design. We should
+            take advantage of the feedback that writing code and testing give
+            us" (178).
         </p>
 
 
@@ -186,21 +204,56 @@
             tabulating, and reducing this knowledge to rules, laws, formulae...
             Thus all of the planning which under the old system was done by the
             workmen, must of necessity under the new system be done by
-            management in accordance with the laws of science.' (Muller, pp.32-33)
+            management in accordance with the laws of science.' (Muller,
+            pp.32-33)
         </p>
+
 
         <p>
-            General Motors: "The managerial 'superstructure which organizes and
-            directs production... draws all possible brainpower away from the
-            shop; everything is centered in the planning and schedule and
-            design departments.'" -- Daniel Bell, quoted in Muller, p. 33
+            Once we recognize software development is a discovery procedure,
+            with strong simlarities to the ways in which market competition and
+            scientific practice are also discovery procedures, it should prove
+            useful to categorize some of the features of a program that are
+            most likely to be discovered in the actual process of development,
+            rather than having been perfectly anticipated in our initial
+            analysis of our users' requirements. What I offer here is only
+            intended as an initial cut at what surely is a much more extensive
+            list that could be developed. With that caveat in mind, in the
+            process of actually developing software, here are some likely areas
+            where our initial analysis will fall short of the mark:
         </p>
 
+        <ul>
+            <li>
+                We will discover "corner solutions" we had not anticipated.
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+        </ul>
+
+
+        <h3>
+            Bibliography
+        </h3>
 
         <p>
             <i>The Tyranny of Metrics</i>,
-            Jerry Z. Muller, Princeton University Press,
-            Princeton, 2018.
+            Jerry Z. Muller,
+            Princeton University Press,
+            Princeton,
+            2018.
+        </p>
+
+        <p>
+            <i>Programming: Principles and Practice Using C++</i>,
+            Bjarne Stroustrup,
+            Addison-Wesley,
+            Upper Saddle River (New Jersey),
+            2014.
         </p>
 
 
