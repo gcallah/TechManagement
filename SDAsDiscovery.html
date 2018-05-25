@@ -151,6 +151,14 @@
             us" (178).
         </p>
 
+        <p>
+            Given the that competition is a discovery procedure, and thus we
+            can't ever predict, with certainty, the results of market
+            competition, Hayek considers what sort of predictions economists
+            can make, if any? After all, if economics is a science, we expect
+            it to say at least something about the course of events. Hayek
+            concludes that:
+        </p>
 
         <p>
             "[The theory of the market's] capacity to predict is necessarily
@@ -160,9 +168,13 @@
         </p>
 
         <p>
-            Here, we see Hayek anticipating the "pattern language" approach to
-            software development that was imported from the architectural works
-            of Chrsitopher Alexander into software development.
+            Similarly, in software development, although we can't anticipate in
+            advance exactly what lines of code will be needed... or development
+            would be done!... we can anticipate that good software will exhibit
+            certain patterns. And thus we see Hayek anticipating the "pattern
+            language" approach to software development that was imported from
+            the architectural works of Christopher Alexander into software
+            development.
         </p>
 
         <p>
@@ -189,10 +201,25 @@
         </p>
 
         <p>
-            The waterfall model has much in common with "Taylorism," the
+            One aspect of recognizing an order as a discovery procedure is the
+            implication that <i>where</i> in an organization
+            the most relevant discoveries will be made is also not predictable
+            in advance. Many scientific discoveries have been made because a
+            lab assistant failed to follow some accepted procedure, or noticed
+            something her "betters" had missed. And many successful market
+            innovations arose at the level of the factory floor or the sales
+            visit, and not in the executive suite.
+        </p>
+
+        <p>
+            The waterfall model assumes that every insight about the proper form
+            of the final software product will come from the "analysts," and
+            that it is the job of lesser beings, such as programmers, to simply turn
+            those insights into executable code. In this respect,
+            the waterfall model has much in common with "Taylorism," the
             blueprint for mass production pioneered by Frederick Taylor around
             the turn of the last century. As Jerry Muller describes it:
-            </p>
+        </p>
 
         <p>
             "Taylorism was based on trying to replace the implicit knowledge of
@@ -208,32 +235,76 @@
             pp.32-33)
         </p>
 
+        <p>
+            But Taylorism and similar top-down approaches proved inadequate in
+            manufacturing, as demonstrated by the triumph of the Toyota
+            Production System, just as top-down planning failed in the Soviet
+            Union, and just as it does in science.
+        </p>
+
 
         <p>
             Once we recognize software development is a discovery procedure,
-            with strong simlarities to the ways in which market competition and
-            scientific practice are also discovery procedures, it should prove
-            useful to categorize some of the features of a program that are
-            most likely to be discovered in the actual process of development,
-            rather than having been perfectly anticipated in our initial
-            analysis of our users' requirements. What I offer here is only
-            intended as an initial cut at what surely is a much more extensive
-            list that could be developed. With that caveat in mind, in the
-            process of actually developing software, here are some likely areas
-            where our initial analysis will fall short of the mark:
+            it should prove useful to categorize some of the features of a
+            program that are most likely to be discovered in the actual process
+            of development, rather than having been perfectly anticipated in
+            our initial analysis of our users' requirements. What I offer here
+            is only intended as an initial cut at what surely is a much more
+            extensive list that could be developed. With that caveat in mind,
+            in the process of actually developing software, here are some
+            likely areas where our initial analysis will fall short of the
+            mark:
         </p>
 
-        <ul>
+        <ul class="nested">
             <li>
                 We will discover "corner solutions" we had not anticipated.
+                Corner solutions are extreme cases that are not easy to detect
+                in the analysis phase, such as a buyer who has purchased every
+                single product the company sells (what do we market to her?),
+                or a security the price of which has dropped to zero (were we
+                dividing by that price at some point?).
             </li>
             <li>
+                Some aspect of the user interface that was "obvious" to the
+                designers will appear completely obscure to the actual users:
+                we won't know this until we put some working software in front
+                of the users.
             </li>
             <li>
+                A calculation or algorithm that the users thought was adequate
+                to their purposes actually is not: it may have handled a few
+                common cases correctly, but once exposed to real world data,
+                its shortcomings may become obvious.
+            </li>
+            <li>
+                Some part of the system may incur a load that was not
+                anticipated during the analysis phase: a particular feature may
+                be much more popular than was predicted, and the capacity of
+                the components assigned to handle that feature might be
+                swamped.
+            </li>
+            <li>
+                There may be regulatory/legal requirements for the software
+                that the users interviewed by the analysts simply took for
+                granted, the violation of which will only become apparent when
+                those users are faced with a working version of the software.
             </li>
             <li>
             </li>
         </ul>
+
+        <p>
+            In conclusion, I suggest that recognizing the similarity between
+            the two "discovery procedures" that Hayek identified, market
+            competition and science, and software development, ought to open
+            fruitful avenues for future research in the Lean / Agile / DevOps
+            space. In particular, theorists and practioners of modern software
+            development methods might look to the work of Hayek, and his
+            leading students, such as Israel Kirzner and Nobel-Prize winning
+            economist Vernon Smith, for further insight concerning the 
+            dynamic nature of the software development process.
+        </p>
 
 
         <h3>
