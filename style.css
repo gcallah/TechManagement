@@ -94,11 +94,8 @@ td.vim-key {
 }
 
 
-
-
-
-
-
-
+ol.nested, ul.nested, dl.nested {
+    font-size: 1em;
+}
 
 
