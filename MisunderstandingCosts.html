@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
-            Misunderstandings Costs in Value-Stream Analysis
+            Misunderstandings Costs in Value-Stream Mapping
         </title>
     </head>
 
@@ -20,18 +20,83 @@
         </p>
 
         <p>
-            The following are notes I've jotted down while reading
-            David Anderson's book <i>Kanban</i> -- I would of course
-            refer to more than just that book in the final article:
+            Value-stream mapping is a useful tool that forces tech teams
+            to focus on activities that add the most value for the customer,
+            rather than those that are recommended in some textbook, or that
+            employ a hot new technology a senior person happens to want to 
+            learn, or what development method will look good when reporting to
+            the CIO. However, too often advocates of this laudable technique
+            have been operating on long-discredited ideas of what economic
+            activities "add value" and what ones do not.
         </p>
 
         <p>
+            The subject of economics itself grappled with this problem for a
+            couple of centuries. In the 1700s the French physiocrats held that
+            only agricultural production truly created value: the rest of us
+            were parasitic on farmers. (Imagine if <i>they</i> value-stream
+            mapped your latest web project!) Adam Smith worked to refute the
+            physiocrats, but suggested instead that it was <i>labor</i> that
+            added value to a product. But there was a problem with that idea:
+            like the old Italian joke goes, if that were true, we would have to
+            pay very inexperienced workers the most, since they labor far
+            longer than an old pro to achieve the same outcome.
+        </p>
+
+        <p>
+            Economics finally solved this problem in the late nineteenth
+            century, in what is usually called "the Marginalist Revolution."
+            Economists realized that "value" was not a substance ladled into
+            a product by some parts of the production process, but not by
+            others: instead, value arises from <i>an act of valuation</i>
+            on the part of the user of a product. So, in determining whether
+            some activity "adds value," the right question to ask is not,
+            "Does the user of this product value the activity?" The user of the
+            product does not value <i>any production activities whatsoever</i>,
+            in and of themselves. What the user values if the features of the
+            final product, <i>regardless of how they were brought about</i>.
+            People who want to drink wine do not care if the wine is the
+            "fruit of the land" or was created by a miracle at Cana: they care
+            if the wine tastes good! And users of software do not care what mix
+            of planning, stand-ups, coding, testing, and so on were necessary
+            to produce the software: they care if it does the job they need it
+            to do.
+        </p>
+
+        <p>
+            Thus, when we find a statement like the following (in the context
+            of automobile manufacturing):
+        </p>
+
+        <blockquote>
+        Value-adding operations involve the conversion or processing of
+        raw materials or semi-finished products through the use of manual
+        labour. This would involve activities such as: sub-assembly of parts,
+        forging raw materials and painting body work.
+
+        (5) The seven value stream mapping tools | Request PDF. Available from:
+        https://www.researchgate.net/publication/235309659_The_seven_value_stream_mapping_tools
+        [accessed Oct 16 2018].
+        </blockquote>
+
+        <p>
+            We should recognize that we are being haunted by the ghost of the
+            long-discredited "labor theory of value." If the above statement 
+            were true, consumers would value a car made by young children, who
+            would take enormous amounts of time to complete "sub-assembly of parts,
+            forging raw materials and painting body work" more than they would
+            one made by competent assembly-line workers. In fact, since most of
+            these activities are today performed by robots, consumers should
+            find contemporary automobiles nearly valueless.
+        </p>
+
+        <p>
+            Similarly, in his book <i>Kanban</i>, David
             Anderson divides economic activities into those that "add value" and
             those that are "wasteful." But activities that do not add value to
             a final product (and are known not to add value) are not the
             activities of an economic producer at all: they are called
-            "consumption" or "recreation." (The whole idea of "adding value" in
-            production is itself questionable, but let's not go into that.)
+            "consumption" or "recreation." 
         </p>
 
         <p>
@@ -41,7 +106,7 @@
         <blockquote>
             This involved a trip to Home Depot. There was also some preparation
             work required on the fence: some repairs, some sanding, and
-            trimming plants... To allow access for painting. None of these
+            trimming plants... to allow access for painting. None of these
             activities could be described as adding value. The customer does
             not care that I have to make a trip to Home Depot. The customer
             does not care that this activity takes time. In fact, it is
@@ -64,7 +129,7 @@
             What Anderson is doing is simply arbitrarily designating certain
             costs as "not adding value" and then pointing out that the customer
             would like those costs minimized. But the customer would also like
-            the costs that Anderson claims do add value to be minimized. In
+            the costs that Anderson claims <i>do</i> add value to be minimized. In
             fact, the ideal production process takes no time and is completely
             costless. Until we can achieve such a process, all work that is
             required to deliver the final product "adds value." Any work that
@@ -81,18 +146,23 @@
             Imagine we have a software-generating AI that can simply listen to
             humans holding a meeting about a piece of software, and then write
             the code. In that case, the only part of the production process
-            involving humans would be meetings! The customer does not "care"
-            about the meetings, but, in fact, doesn't "care" about the coding
+            involving humans <i>would be meetings</i>! The customer does not "care"
+            about the meetings, and, in fact, doesn't "care" about the coding
             either: the customer only cares about the final product doing what
-            he wants it to, however the product came about.
+            he wants it to, however the product came about. If Jesus appeared
+            and miraculously produced the needed software product the same
+            way that he reportedly produced wine at Cana, the users would far
+            prefer that to <i>any</i> time-consuming production process
+            whatsoever.
         </p>
 
         <p>
-            Short of having such an AI, the question is, "Are the meetings
-            being held helpful to producing a better software product?" If they
-            are, they are "producing value." (Again, this is not really an
-            accurate way to speak: production processes do not ladle out little
-            dollops of value here and there into a product.) Think about a
+            Short of having an AI like the one described above, or having Jesus
+            available to miraculously produce a program, 
+            the right question to ask is, "Are the meetings
+            being held resulting in a better software product
+            than if they were not being held?" If they
+            are, they are "producing value." Think about a
             half-hour meeting where one software engineer discovers that his
             colleague has already written and debugged an algorithm that he was
             going to spend the next week writing and debugging. That meeting
@@ -117,7 +187,7 @@
             installation is part of the transaction cost of buying the washing
             machine... The net effect of all these costs it is to inflate the
             final price paid by the consumer without actually increasing the
-            value delivered." -- Kanban, p. 94
+            value delivered." -- <i>Kanban</i>, p. 94
         </p>
 
         <p>
@@ -135,24 +205,7 @@
             is true that the washing machine without delivery or installation
             is of little value..." Exactly: that is why delivering and
             installing it <i>adds</i> to its value.
-        </p>
-
-        <p>
-            I suspect that what is confusing Anderson is his notion that
-            certain parts of the manufacturing process "add value," while
-            others don't. But that is looking at things as though the Marginal
-            Revolution of the late 1800s had never occurred. There is no
-            substance called "value" that is ladled into products as they are
-            manufactured. Instead, the materials being worked upon are
-            transformed at each stage of the production process, and those
-            transformations either result in the consumer of the product
-            valuing it more highly, or they do not. If they do, then speaking
-            loosely, we could say that they "add value." If they do not, then
-            they simply should not be performed.
-        </p>
-
-        <p>
-            And since I, as a consumer of washing machines, most definitely
+            Since I, as a consumer of washing machines, most definitely
             value a machine in which I can actually wash my clothes inside my
             house much more than I value one sitting in a warehouse in which I
             cannot wash anything, then the delivery and installation steps "add
@@ -161,11 +214,8 @@
         </p>
 
         <p>
-        ....
-        </p>
-
-        <p>
-            Anderson argues, against Scrum advocates who believe that their
+            Anderson goes on to argue,
+            against Scrum advocates who believe that their
             daily 15-minute standups add value, "Well, if standup meetings are
             truly value-added... then surely doing more of them would be a good
             thing!"
@@ -178,8 +228,9 @@
         <p>
             Anderson claims that "Developing more customer requirements is
             clearly value-adding" (216). But that is nonsense: there is no
-            "value-added" in "developing" things: the value-added is in having
-            them developed. All resources put into "developing" are costs,
+            "value-added" in "developing" things: the value-added is in
+            <i>having them developed</i>. All resources put
+            into "developing" are costs,
             costs to be weighed against the value of having <i>finished</i>
             developing things the customer wants.
         </p>
@@ -193,6 +244,10 @@
             Anderson, David J. (2010) <i>Kanban</i>,
             Blue Hole Press: 
             Sequim, Washington
+        </p>
+
+        <p>
+            
         </p>
 
     </body>
