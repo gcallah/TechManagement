@@ -35,6 +35,11 @@ p {
     line-height: 140%;
 }
 
+blockquote {
+    margin: .8em 4em .8em 4em;
+    font-size: 1.1em;
+}
+
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
