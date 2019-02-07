@@ -40,6 +40,10 @@ blockquote {
     font-size: 1.1em;
 }
 
+p.biblio {
+    margin: .6em 3em .6em 3em; 
+}
+
 p.author {
     text-align: center;
     margin: 1em 1em 1em 1em;
