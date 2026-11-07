@@ -318,3 +318,29 @@ ul.essays .note {
 .site-footer a:visited {
     color: #fff;
 }
+
+ul.essays .title {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    color: var(--ink);
+}
+
+/* Compact cards for the publication list. */
+ul.pubs {
+    gap: 0.6rem;
+}
+
+ul.pubs li {
+    padding: 0.75rem 1.1rem;
+}
+
+ul.pubs a,
+ul.pubs .title {
+    font-size: 1rem;
+}
+
+ul.pubs .note {
+    font-size: 0.85rem;
+}
