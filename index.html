@@ -1,5 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>
             Tech Management
@@ -7,18 +13,34 @@
     </head>
 
     <body>
-        <div style="text-align:center">
-            <figure>
-            <img
-             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/FrameBreaking-1812.jpg/440px-FrameBreaking-1812.jpg"
-             width="22%">
-            </figure>
-        </div>
-        <h1>
-            Tech Management
-        </h1>
+        <header class="site-header">
+            <div class="inner">
+                <a class="site-title" href="index.html">Tech Management</a>
+            </div>
+        </header>
 
-            <ul>
+        <main>
+            <figure class="hero">
+                <img
+                 src="images/leader-of-the-luddites.jpg"
+                 width="606" height="800"
+                 alt="Hand-colored 1812 print of a Luddite leader in a spotted dress and feathered cap, pointing onward while armed followers cheer and a mill burns behind him">
+                <figcaption>
+                    <i>The Leader of the Luddites</i>, published May 1812
+                    by Messrs. Walker and Knight. Public domain, via
+                    <a href="https://commons.wikimedia.org/wiki/File:Luddite.jpg">Wikimedia Commons</a>.
+                </figcaption>
+            </figure>
+
+            <h1>
+                Tech Management
+            </h1>
+
+            <p class="tagline">
+                Writings on technology management.
+            </p>
+
+            <ul class="essays">
                 <li>
                     <a href="https://www.cutter.com/article/user-centered-design-solution-business-it-alignment-problem-406781">
                         Is "User-Centered" Design the Solution to the
@@ -26,11 +48,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://www.drdobbs.com/calming-the-corporate-immune-system/184414563">
+                    <a href="https://web.archive.org/web/20250526200809/https://www.drdobbs.com/calming-the-corporate-immune-system/184414563">
                         Calming the Corporate Immune System
                     </a>
-                    <br />
-                    (With Gifford Pinchot.)
+                    <span class="note">With Gifford Pinchot.</span>
                 </li>
                 <li>
                     <a href="SDAsDiscovery.html">
@@ -44,6 +65,10 @@
                     </a>
                 </li>
             </ul>
+        </main>
 
+        <footer class="site-footer">
+            Gene Callahan &middot; NYU Tandon School of Engineering
+        </footer>
     </body>
 </html>
