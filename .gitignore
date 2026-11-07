@@ -1,2 +1,4 @@
 *~
 *.swp
+.superset/config.local.json
+.superset/*.pid
