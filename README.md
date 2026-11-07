@@ -1,2 +1,2 @@
 # TechManagement
-Writings on technology management.
+Writings on technology and technology management.
