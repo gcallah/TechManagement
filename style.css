@@ -344,3 +344,8 @@ ul.pubs .title {
 ul.pubs .note {
     font-size: 0.85rem;
 }
+
+p.section-note {
+    font-size: 0.95em;
+    color: var(--ink-soft);
+}
